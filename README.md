@@ -28,4 +28,6 @@ SCSS
 3. Instead BitBucket(Private Repo) I have used Github Public Repo
 
 # To run on local
-1. Run > git clone 
+1. Run > git clone https://github.com/skacharde/weather-demo-app.git
+2. Run > npm i
+3. Run > npm serve -o

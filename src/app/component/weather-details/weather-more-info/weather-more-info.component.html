@@ -1,0 +1,31 @@
+<div class="card">
+    <div class="card-header">
+      {{cityName}}
+    </div>
+    <div class="card-body table-responsive">
+      <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th *ngFor="let d of foreCastInfo">{{d.dt_txt | date:'medium'}}</th>
+            </tr>
+        </thead>
+        <tbody *ngIf="foreCastInfo.length>0">
+            <tr>
+                <td>Temprature</td>
+                <td *ngFor="let d of foreCastInfo">{{d.main.temp}}° C</td>
+            </tr>
+            <tr>
+                <td>Sea Level</td>
+                <td *ngFor="let d of foreCastInfo">{{d.main.sea_level}}</td>
+            </tr>
+        </tbody>
+        <tbody *ngIf="foreCastInfo.length==0">
+            <tr>
+                <td colspan="5">No Data</td>
+            </tr>
+        </tbody>
+    </table>
+      <a (click)="goBack()" class="btn btn-primary btn-primary-bg">Go Back</a>
+    </div>
+  </div>
