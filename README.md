@@ -20,7 +20,8 @@ SCSS
 3. Implement Custom pipe
 4. Implemented shared Service
 5. Used SCSS & Utilize Bootstrap classes instead writting own Complex CSS
-6. Assignment also deployed on Github Page
+6. Added Page-not-found page
+7. Assignment also deployed on Github Page URL: https://skacharde.github.io/weather-demo-app/weather-data
 
 # What we don't have implemented
 1. Code changes to support in IE browser
