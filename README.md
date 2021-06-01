@@ -20,7 +20,12 @@ SCSS
 3. Implement Custom pipe
 4. Implemented shared Service
 5. Used SCSS & Utilize Bootstrap classes instead writting own Complex CSS
+6. Assignment also deployed on Github Page
 
 # What we don't have implemented
 1. Code changes to support in IE browser
 2. Not written Test cases
+3. Instead BitBucket(Private Repo) I have used Github Public Repo
+
+# To run on local
+1. Run > git clone 
